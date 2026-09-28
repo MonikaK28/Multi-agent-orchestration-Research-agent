@@ -3,6 +3,9 @@
 A FastAPI service that turns a topic into a researched article using a **supervisor-led multi-agent workflow** built with [LangGraph](https://langchain-ai.github.io/langgraph/). A supervisor LLM routes work between a **Researcher** agent (web search via Tavily) and a **Writer** agent (article generation via Groq), and decides when the job is finished.
 
 ---
+## 🚀 Live Demo
+https://multi-agent-orchestration-research-agent.onrender.com/
+> Note: The app is hosted on a free tier, so the first request may take 30-60 seconds while the server wakes up.
 
 ## Table of Contents
 
